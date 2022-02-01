@@ -1,7 +1,8 @@
-import { Box, Text, TextField, Image, Button } from "@skynexui/components";
+import { Box, Text, TextField, Image /*Button*/ } from "@skynexui/components";
 import React from "react";
 import appConfig from "../config.json";
 import { createClient } from "@supabase/supabase-js";
+import Button from "@mui/material/Button";
 
 // Como fazer AJAX: https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6
 const SUPABASE_ANON_KEY =
@@ -126,6 +127,14 @@ export default function ChatPage() {
                 color: appConfig.theme.colors.neutrals[200],
               }}
             />
+            <Button
+              variant="contained"
+              onClick={() => {
+                handleNovaMensagem(mensagem);
+              }}
+            >
+              Enviar
+            </Button>
           </Box>
         </Box>
       </Box>
@@ -146,12 +155,10 @@ function Header() {
         }}
       >
         <Text variant="heading5">Chat</Text>
-        <Button
-          variant="tertiary"
-          colorVariant="neutral"
-          label="Logout"
-          href="/"
-        />
+
+        <Button variant="contained" label="Logout" href="/">
+          Logout
+        </Button>
       </Box>
     </>
   );
@@ -163,7 +170,7 @@ function MessageList(props) {
     <Box
       tag="ul"
       styleSheet={{
-        overflow: "scroll",
+        overflow: "auto",
         display: "flex",
         flexDirection: "column-reverse",
         flex: 1,
