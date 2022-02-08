@@ -7,7 +7,7 @@ Chat criado durante a Imersão React da Alura com foco em React e Next.js.
 
 ## Funcionalidades
 
-- Back-end e Banco de dados integrados com o Supabase.
+- Back-end e Banco de dados usando o Supabase.
 - "Login" com nome e foto do perfil do Github.
 - Conversas em tempo real.
 - Responsividade.
@@ -39,7 +39,7 @@ Chat created during Alura's "Imersão React" focusing React and Next.js.
 
 ## Functionalities
 
-- Back-end and Database integrated with Supabase.
+- Back-end and Database using Supabase.
 - "Login" with Github's profile name and image.
 - Real-time conversations.
 - Responsiveness
