@@ -4,6 +4,9 @@ Chat em tempo real.
 
 Chat criado durante a Imersão React da Alura com foco em React e Next.js.
 
+<div align="left">
+<img src="https://user-images.githubusercontent.com/84355579/153686500-902dd8d4-c127-4172-b4fe-08fee3f04c80.jpg" width="450px" />
+</div>
 
 ## Funcionalidades
 
@@ -11,6 +14,7 @@ Chat criado durante a Imersão React da Alura com foco em React e Next.js.
 - "Login" com nome e foto do perfil do Github.
 - Conversas em tempo real.
 - Responsividade.
+- Figurinha.
 
 ## Tecnologias utilizadas
 
@@ -37,12 +41,18 @@ Real-time Chat.
 
 Chat created during Alura's "Imersão React" focusing React and Next.js.
 
+<div align="left">
+<img src="https://user-images.githubusercontent.com/84355579/153686500-902dd8d4-c127-4172-b4fe-08fee3f04c80.jpg" width="450px" />
+</div>
+
+
 ## Functionalities
 
 - Back-end and Database using Supabase.
 - "Login" with Github's profile name and image.
 - Real-time conversations.
-- Responsiveness
+- Responsiveness.
+- Sticker.
 
 
 ## Used Technologies
