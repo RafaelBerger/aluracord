@@ -76,7 +76,6 @@ export default function PaginaInicial() {
             as="form"
             onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
-              console.log("testando");
               roteamento.push(`/chat?username=${username}`);
               //window.location.href = "/chat" - carrega outra página
             }}
@@ -90,7 +89,7 @@ export default function PaginaInicial() {
               marginBottom: "32px",
             }}
           >
-            <Titulo tag="h2">Boas vindas de volta!</Titulo>
+            <Titulo tag="h2">Boas vindas!</Titulo>
             <Text
               variant="body3"
               styleSheet={{
